@@ -60,7 +60,15 @@ print(A,B)
 4 - Ecrire un programme ayant 4 variables correspondant à 4 notes, donner des valeurs aux variables et écrire un algorithme permettant de calculer la moyenne de ces 4 notes
 
 ```
+A = float(input())
+B = float(input())
+C = float(input())
+D = float(input())
 
+
+Moyenne = (A+B+C+D)/4
+
+print(Moyenne)
 ```
 
 5 - Ecrire un programme ayant une variable S contenant des secondes. Afficher le nombre d'heures et de minutes correspondantes.
